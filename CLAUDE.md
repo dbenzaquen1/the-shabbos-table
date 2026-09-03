@@ -34,6 +34,10 @@ Route work to the persona whose charter covers it:
    the upstream artifacts the persona reads first (see their file's "Read
    before starting" list) and each persona ends by writing its handoff
    artifact.
+4. **Missing artifacts:** early in the project, some shared artifacts will
+   not exist yet. A missing artifact reads as empty — note its absence and
+   proceed; never invent its contents. The persona that owns it creates it
+   on first need.
 
 ## Shared artifacts
 
@@ -47,6 +51,7 @@ Route work to the persona whose charter covers it:
 
 At the start of a work session, if at least one PR has merged since the
 last note in `docs/team/standups/` (or when the user asks), dispatch Tomás
-to run a stand-up. Artifact-driven: he reads the decision log, backlog, and
+to run a stand-up. If no stand-up note exists yet, the first one is due
+after the first merged feature PR. Artifact-driven: he reads the decision log, backlog, and
 recent merges, and requests a persona's status only when their area has
 open questions.

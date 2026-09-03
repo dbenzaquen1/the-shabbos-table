@@ -3,6 +3,9 @@
 Date: 2026-09-03
 Status: Approved (designed collaboratively in-session)
 
+> Point-in-time record. The living protocol is `CLAUDE.md` and the agent
+> files in `.claude/agents/` — where they diverge from this spec, they win.
+
 ## Context
 
 the-shabbos-table will be a web app. Before feature work begins, the project
